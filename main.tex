@@ -33,7 +33,6 @@
 \geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
 
 % The paracol package lets you typeset columns of text in parallel
-\usepackage{paracol}
 \usepackage{graphicx,wrapfig}
 
 % Change the font if you want to, depending on whether
@@ -87,14 +86,7 @@
 %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
 \AtBeginEnvironment{itemize}{\small}
 
-%% Set the left/right column width ratio to 6:4.
-\columnratio{0.6}
-
-% Start a 2-column paracol. Both the left and right columns will automatically
-% break across pages if things get too long.
-\begin{paracol}{2}
-
-\name{Kevin Cui}
+\name{Michal Skorczak}
 \tagline{}
 %% You can add multiple photos on the left or right
 % \photoR{2.8cm}{Globe_High}
@@ -102,13 +94,11 @@
 
 \personalinfo{%
   % Not all of these are required!
-  \email{kevinjycui@protonmail.com}
-  \homepage{www.kevincui.dev}
-  
-  \linkedin{kevinjycui}
-  \github{kevinjycui}
-  \itch{junferno.itch.io}
-  \youtube{Junferno}
+  \email{mskorczak1@gmail.com}
+  \homepage{mskorczak.xyz}
+
+  \linkedin{mskorczak}
+  \github{mskorczak}
   %% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
   % \orcid{0000-0000-0000-0000}
   %% You can add your own arbtrary detail with
@@ -124,37 +114,36 @@
 
 \cvsection{Experience}
 
-\cvevent{Data Engineer Intern, Technology \& Operations}{RBC Royal Bank of Canada}{Jul 2021 -- Aug 2021}{Toronto, ON}
+\cvevent{Developer}{Alan Blunden}{Jun 2022 -- Present}{Remote}
 \begin{itemize}
+	\item Developing and maintaining existing full-stack line of business applications
+	\item Worked in an Agile team of 5, collabroating and communicating with other teams in different disciplines
     \item Data provisioning in Hadoop, data pipeline automation with Python and Java, full-stack application development for database web portal in Express, documentation generation using SQL and JDBC
-    
+
     \item Worked in an Agile team of 6, collaborating and communicating with other teams in different disciplines
-    
+
 \end{itemize}
-\cvtag{Hadoop}
-\cvtag{HDFS}
-\cvtag{Java}
-\cvtag{Maven}
+\cvtag{C\#}
+\cvtag{Javascript}
+\cvtag{Vue JS}
 \cvtag{Python}
 \cvtag{SQL}
-\cvtag{JDBC}
 \cvtag{Node.js}
 \cvtag{JavaScript}
-\cvtag{Express}
 \cvtag{Git}
-\cvtag{Jenkins}
 \cvtag{Windows}
+\cvtag{Azure}
 
 \divider
 
 \cvevent{Innovation Developer Intern, Technology \& Operations}{RBC Royal Bank of Canada}{Jul 2020 -- Aug 2020}{Toronto, ON}
 \begin{itemize}
     \item Full stack software development building internal applications: retrospectives web application with React front-end and Express back-end
-    
+
     \item Led an Agile team of 4 as a returning intern, helping new developers get setup, moderated and managed changes from team
-    
+
     \item Moderated source control, reviewed, tested, and debugged changes from all other development teams to new releases
-    
+
     \item Conducted usability testing, moderated test sessions with design teams, presented and demonstrated solutions to senior executives
 \end{itemize}
 \cvtag{React}
@@ -180,9 +169,9 @@
 % \begin{wrapfigure}[1]{r}[-25pt]{1.5cm}
 % \vspace{-15pt}
 % \includegraphics[width=1.5cm]{icon_transparent.png}
-% \end{wrapfigure} 
+% \end{wrapfigure}
 
-\cvevent{LUSK}{3D wall-crawling game (McGameJam '23)}{January 2023 \github{kevinjycui/LUSK}}{} 
+\cvevent{LUSK}{3D wall-crawling game (McGameJam '23)}{January 2023 \github{kevinjycui/LUSK}}{}
 \begin{itemize}
 
 \item Programmed movement, environment, and animation
@@ -197,7 +186,7 @@
 
 \divider
 
-\cvevent{Wayward Bones}{2D digging + platformer game (McGameJam '22 Audio Winner)}{May 2022 \github{kevinjycui/WaywardBones}}{} 
+\cvevent{Wayward Bones}{2D digging + platformer game (McGameJam '22 Audio Winner)}{May 2022 \github{kevinjycui/WaywardBones}}{}
 \begin{itemize}
 
 \item Programmed entity movement, player controls/attack system, in-game enemy boss animation cycles and particles fitted to attack patterns
@@ -242,10 +231,6 @@
 
 % \printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
 
-%% Switch to the right column. This will now automatically move to the second
-%% page if the content is too long.
-\switchcolumn
-
 % \cvsection{My Life Philosophy}
 
 % \begin{quote}
@@ -253,14 +238,14 @@
 % \end{quote}
 
 
-\cvevent{Donkey Kong Bongo to Key}{Keyboard \& mouse interface for the DK Bongos for GameCube}{Sept 2021 \github{kevinjycui/DKBongoToKey}}{} 
+\cvevent{Donkey Kong Bongo to Key}{Keyboard \& mouse interface for the DK Bongos for GameCube}{Sept 2021 \github{kevinjycui/DKBongoToKey}}{}
 \cvtag{C++}
 \cvtag{SDL}
 \cvtag{DirectX (DirectInput)}
 
 \divider
 
-\cvevent{Desmos Renderer}{Fun graphing calculator art tool}{Apr 2021 \github{kevinjycui/DesmosBezierRenderer}}{} 
+\cvevent{Desmos Renderer}{Fun graphing calculator art tool}{Apr 2021 \github{kevinjycui/DesmosBezierRenderer}}{}
 \cvtag{Python}
 \cvtag{OpenCV}
 \cvtag{Flask}
@@ -270,7 +255,7 @@
 
 \divider
 
-\cvevent{Practice Bot}{Competitive programming utility bot}{Mar 2020 -- Jul 2021 \github{kevinjycui/Practice-Bot}}{} 
+\cvevent{Practice Bot}{Competitive programming utility bot}{Mar 2020 -- Jul 2021 \github{kevinjycui/Practice-Bot}}{}
 \cvtag{Python}
 \cvtag{MariaDB}
 \cvtag{discord.py}
@@ -374,8 +359,6 @@ VP Finance, Game Dev Student's Society
 % \cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
 % {Address Line 1\\Address line 2}
 
-
-\end{paracol}
 
 
 \end{document}
