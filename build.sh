@@ -1,5 +1,5 @@
 #!/bin/bash
-BUILDFILES=("mskor_resume.tex","altacv.cls","README.md","build.sh","output.txt","mskor_resume.pdf","mskor_resume.png")
+BUILDFILES=("mskor_resume.tex","altacv.cls","README.md","build.sh","output.txt","mskor_resume.pdf")
 echo "Building resume and deleting output.txt"
 rm output.txt
 echo "Building resume" | tee -a output.txt
@@ -15,5 +15,5 @@ do
 	fi
 done
 echo -e "Creating PNG version" | tee -a output.txt
-convert -density 150 mskor_resume.pdf -quality 90 mskor_resume.png
+convert -density 300 -colorspace sRGB mskor_resume.pdf -alpha off mskor_resume.png
 echo -e "Done." | tee -a output.txt
