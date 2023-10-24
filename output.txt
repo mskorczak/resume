@@ -1,0 +1,5 @@
+Building resume
+Generating resume PDF
+Deleting build files
+Creating PNG version
+Done.
