@@ -1,0 +1,113 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{anyfontsize}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{paralist}
+\newcommand{\github}{https://github.com/mskorczak}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\maketitle}
+{
+\begin{center}
+{\fontsize{15}{10}\bfseries
+\theauthor
+}
+\vspace{.5em}
+
+    \href{mskorczak1@gmail.com}{mskorczak1@gmail.com} | \href{\github}{github.com/mskorczak} | \href{www.linkedin.com/in/mskorczak}{linkedin.com/mskorczak}
+
+\end{center}
+}
+\titleformat{\section}
+{\fontsize{13}{5}\bfseries}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries\fontsize{13}{5}}
+{}
+{0em}
+{}
+
+\titleformat{\subsubsection}[runin]
+{\bfseries}
+{}
+{1.5em}
+{}
+
+\titlespacing{\subsection}
+{0em}{.25em}{0em}
+\titlespacing{\subsubsection}
+{0em}{0em}{0em}
+
+\newenvironment{mlist}
+{ \begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}     }
+{ \end{itemize}                  } 
+
+\begin{document}
+
+\author{Michal Skorczak}
+
+\maketitle
+
+\section{Employment}
+
+\subsection{Software Developer @ Alan Blunden / Jun 2022 - Present / Fully Remote}
+\begin{compactitem}
+\item Developed and maintained existing, full-stack line of business applications for insurance brokers.
+\item Worked remotely as part of an agile team collaborating with every aspect of the business to solve problems.
+\item Maintained a number of test suites for both front-end web applications and back-end API services.
+\item Developed a number of developer focused processes and programs for easier and effective automation.
+\item WIP
+\end{compactitem}
+
+\subsection{AV Technical Crew @ University of Essex Students Union / Sep 2021 - Jun 2022}
+\begin{compactitem}
+\item Worked on live events raging from e-sports, meetings and music nights.
+\item Responsible for set up, tear down and safety checks of extensive sound and light systems.
+\item Helped lead a teams of technicians during the live events.
+\end{compactitem}
+
+\subsection{Database Administrator @ TDP Marketing / Dec 2018 - Aug 2019}
+\begin{compactitem}
+\item Provided marketing and sales data to businesses and consumers through database management.
+\item Developed internal tools in order to allow data brokers to retrieve and update data in compliance with GDPR guidelines.
+\item Something else about working with the ticketing system.
+\item WIP
+\item WIP
+\end{compactitem}
+
+\section{Education}
+
+\subsection{B.Eng in Computer Systems Engineering @ University of Essex / 2019 - 2022}
+\begin{compactitem}
+\item Graduated with a 2.1, listed on the Deans List for Excellence in all 3 years.
+\item Member of the Video Game, Game Development and Music Societies.
+\item Using my position as part of AV Technical Crew, I helped run a number of live music events including a festival called 'Colch-ella' and the Derby Day 2022 E-Sports event.
+\item RISC-V interpreter for my disertation project.
+\item WIP
+\end{compactitem}
+
+\section{Experience}
+
+\subsection{\href{\github/panels}{github/panels}} Terminal user interface developed for my dissertation in C, migrated over for more general use.
+\subsection{\href{\github/jungle}{github/jungle}} Server/Client config for a private Minecraft server.
+\subsection{\href{\github/web}{github/web}} General purpose web-server written in Zig for my website along with use as a general boiler-plate for other web projects.
+\subsection{\href{\github/.config}{github/.config}} Miscellaneous Bash scripts and configs for everyday use.  
+\subsection{National Citizen Service} Helped to create a sensory garden near Ipswich Hospital (specifically Walker's Close) as part of a social action project which include all of the design, fundraising and manufacturing.
+
+\section{References}
+
+\subsection{Mathew Staples / Lead Developer @ Alan Blunden} mathew.staples@alanblunden.co.uk
+\subsection{Ben Wilson / Head of Production @ TDP Marketing} benwilson@tdpmarketing.com 
+\subsection{Callum Bartlett / AV Technical Coordinator @ University Of Essex Students Union} callum.bartlett@essex.ac.uk
+
+%	\subsection{GCSE - St. Albans Catholic High School 2012 - 2017}
+%		\subsubsection{}Maths/Further Maths (7/B), English Literature/Language (7/6), Triple/Higher Science (Biology/Physics: B; Chemistry: C), Computing (A), History (A), Religious Studies (B)
+\end{document}
