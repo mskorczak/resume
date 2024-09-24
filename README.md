@@ -1,3 +1,5 @@
 # Resume
 
-Resume written using a modified [AltaCV](https://github.com/liantze/AltaCV) template.
+Run `build.sh` to install.
+
+I think it needs imagemagik but it definitely needs pdflatex. 
